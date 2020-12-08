@@ -1,0 +1,18 @@
+name: FakeChat
+version: 0.1
+author: Dmitry Pleshkov
+main: dev.pleshkov.FakeChat.FakeChat
+api-version: 1.16
+commands:
+  fakejoin:
+    description: Send a fake player join chat message to everyone
+    usage: /fakejoin <playername>
+    permission: fakechat.fakejoin
+  fakeleave:
+    description: Send a fake player leave chat message to everyone
+    usage: /fakeleave <playername>
+    permission: fakechat.fakeleave
+  fakechat:
+    description: Send a fake chat message to everyone
+    usage: /fakechat <playername> <chatmessage>
+    permission: fakechat.fakechat
